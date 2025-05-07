@@ -53,8 +53,15 @@ export default {
               console.log(`Sending code ${code} to ${email}`);
             },
             copy: {
-              input_code: "Code (check Worker logs)",
-            },
+		  input_code: "Código (revísalo en los logs)",
+		  register: "Registrarse",
+		  forgot_password: "¿Olvidaste tu contraseña?",
+		  continue: "Continuar",
+		  email_label: "Correo electrónico",
+		  password_label: "Contraseña",
+		  submit: "Enviar",
+		  // puedes seguir agregando más según lo que necesites traducir
+		},
           }),
         ),
       },
