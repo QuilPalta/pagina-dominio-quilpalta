@@ -14,6 +14,16 @@ const subjects = createSubjects({
   }),
 });
 
+copy: {
+  register: "Registrarse",
+  forgot_password: "¿Olvidaste tu contraseña?",
+  continue: "Continuar",
+  email_label: "Correo electrónico",
+  password_label: "Contraseña",
+  submit: "Enviar",
+  // puedes seguir agregando más según lo que necesites traducir
+}
+
 export default {
   fetch(request: Request, env: Env, ctx: ExecutionContext) {
     // This top section is just for demo purposes. In a real setup another
@@ -53,14 +63,7 @@ export default {
               console.log(`Sending code ${code} to ${email}`);
             },
             copy: {
-		  input_code: "Código (revísalo en los logs)",
-		  register: "Registrarse",
-		  forgot_password: "¿Olvidaste tu contraseña?",
-		  continue: "Continuar",
-		  email_label: "Correo electrónico",
-		  password_label: "Contraseña",
-		  submit: "Enviar",
-		  // puedes seguir agregando más según lo que necesites traducir
+		input_code: "Código (revísalo en los logs)",
 		},
           }),
         ),
