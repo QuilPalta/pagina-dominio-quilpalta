@@ -59,9 +59,9 @@ export default {
         ),
       },
       theme: {
-        title: "myAuth",
+        title: "Portal Del Fileteo",
         primary: "#0051c3",
-        favicon: "https://workers.cloudflare.com//favicon.ico",
+        favicon: "https://th.bing.com/th/id/OIG4.WbBvD86koa1mcOoKM3OS?w=1024&h=1024&rs=1&pid=ImgDetMain",
         logo: {
           dark: "https://th.bing.com/th/id/OIG4.WbBvD86koa1mcOoKM3OS?w=1024&h=1024&rs=1&pid=ImgDetMain",
           light:
